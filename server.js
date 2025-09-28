@@ -12,7 +12,7 @@ const port = process.env.PORT || 4000;
 
 connectDB();
 
-const allowedOrigin = ["http://localhost:5173"]
+const allowedOrigin = ["http://localhost:5173", "https://mern-authentication-frontend-git-main-vishwajeetdevs-projects.vercel.app/"]
 
 app.use(cookieParser());
 app.use(cors({origin:allowedOrigin, credentials : true}));
